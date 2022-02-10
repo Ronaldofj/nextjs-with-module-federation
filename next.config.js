@@ -1,3 +1,17 @@
 module.exports = {
-  reactStrictMode: true,
+  webpack5: true,
+  webpack: (config, options) => {
+
+  const { ModuleFederationPlugin } = options.webpack.container;
+    config.plugins.push(
+      new ModuleFederationPlugin({
+        remotes: {
+          teamDs: "teamDs@http://localhost:3002/remoteEntry.js",
+        },
+        shared: [],
+      })
+    );
+
+     return config;
+  }
 }
