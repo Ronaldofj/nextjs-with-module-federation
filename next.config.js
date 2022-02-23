@@ -8,7 +8,13 @@ module.exports = {
         remotes: {
           teamDs: "teamDs@http://localhost:3002/remoteEntry.js",
         },
-        shared: [],
+        shared: {
+          react: {
+            singleton: true,
+            eager: true,
+            requiredVersion: false,
+          },
+        }
       })
     );
 

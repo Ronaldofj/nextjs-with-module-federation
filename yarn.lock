@@ -46,13 +46,6 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@module-federation/nextjs-mf@^3.3.0":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@module-federation/nextjs-mf/-/nextjs-mf-2.3.1.tgz#d8029e1f225c7719370ec564c6937271a74a12bc"
-  integrity sha512-mWeVr/kb0Ip0zgKXO9e/ub5PEb9wNFNFzy06+wDhXCtz1YGaPlTiyjnvpwZbAwD1ha8B3EcHjKYEB3ic/0ogKQ==
-  dependencies:
-    webpack-federated-stats-plugin "2.0.5"
-
 "@next/env@12.0.9":
   version "12.0.9"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.0.9.tgz#4c9e9eef00226145d9629a846b8cc31878e1328c"
@@ -2034,11 +2027,6 @@ watchpack@^2.3.1:
   dependencies:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
-
-webpack-federated-stats-plugin@2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/webpack-federated-stats-plugin/-/webpack-federated-stats-plugin-2.0.5.tgz#ea184231f2cc380082af54fef5d1a9b05255b002"
-  integrity sha512-Ji+RVg3+0joPAXqqv8F9wD4lyq8ibxqYu3vzp8gaBOy7jdHcnn8egZ0KV08S5KbBlxP1n7jzq0kSN+M5uMaWyA==
 
 webpack-merge@^5.8.0:
   version "5.8.0"
